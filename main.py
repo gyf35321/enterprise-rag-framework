@@ -73,7 +73,7 @@ print(chunks[200].metadata)
 
 
 evaluation_queries = [
-    "How do I configure PROFINET communication?"
+      "What are the operating modes of the S7-1200 CPU, and how do STOP, STARTUP, and RUN differ?"
 ]
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
