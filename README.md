@@ -8,6 +8,20 @@ Enterprise Knowledge Retrieval System is an applied AI engineering prototype des
 
 The system combines document parsing, text chunking, embedding-based semantic search, lexical retrieval, cross-encoder reranking, and LLM-based answer generation. It is designed as a modular foundation for enterprise knowledge management, technical documentation search, and AI-assisted decision support.
 
+## Industrial RAG Demo: Siemens S7-1200 Public Documentation
+
+This repository includes an industrial RAG demo based on publicly available Siemens S7-1200 technical documentation.
+
+The demo was tested on a 1,374-page technical manual and generated 3,579 document chunks. It demonstrates the full retrieval-augmented generation pipeline, including PDF ingestion, chapter-aware chunking, FAISS vector search, BM25-based hybrid retrieval, cross-encoder reranking, and LLM-based answer generation.
+
+The demo includes 5 domain-specific industrial automation questions covering CPU capabilities, expansion modules, installation and wiring safety, scan cycle execution, and CPU operating modes.
+
+- Demo notes: [`demo/demo_notes.md`](demo/demo_notes.md)
+- Sample questions: [`demo/sample_questions.md`](demo/sample_questions.md)
+- Sample outputs: [`demo/sample_outputs.md`](demo/sample_outputs.md)
+
+This is an independent technical evaluation based on publicly available documentation. It is not affiliated with, endorsed by, or sponsored by Siemens.
+
 ## Key Features
 
 - PDF document ingestion and text extraction
@@ -46,6 +60,10 @@ enterprise-rag-framework/
 ├── evaluation/
 │   ├── ground_truth.py
 │   └── metrics.py
+├── demo/
+│   ├── demo_notes.md
+│   ├── sample_questions.md
+│   └── sample_outputs.md
 ├── utils/
 │   └── config.py
 └── README.md
