@@ -20,7 +20,7 @@ The demo includes 5 domain-specific industrial automation questions covering CPU
 - Sample questions: [`demo/sample_questions.md`](demo/sample_questions.md)
 - Sample outputs: [`demo/sample_outputs.md`](demo/sample_outputs.md)
 
-This is an independent technical evaluation based on publicly available documentation. It is not affiliated with, endorsed by, or sponsored by Siemens.
+This is an independent technical evaluation based on publicly available data, not a collaboration project.
 
 ## Key Features
 
